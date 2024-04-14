@@ -58,7 +58,7 @@ const Portfolio = () => {
 Creating a collage web application using React.js involves structuring components to display images in a visually appealing arrangement. First, you'll need to set up your React environment and create components for the collage layout. You can use CSS Grid or Flexbox for the layout design.</p>
                 </div>
               <div className="button">
-                <a href="https:/collage-website.vercel.app"><button className='btn dark-btn'> Live Preview</button></a>
+                <a href="https://praveenraghavcollage.vercel.app/"><button className='btn dark-btn'> Live Preview</button></a>
                 
                 <a href="https://github.com/Praveen-Raghav97/Collage-Website.git"><button className=' btn dark-btn'> Source Code</button></a>
               </div>
