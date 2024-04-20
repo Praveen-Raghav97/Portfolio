@@ -6,6 +6,7 @@ import e_icon from '../../assets/8344.jpg'
 import E_commerce from '../../assets/E-Commerce.png'
 import Collage_web from '../../assets/Collage-Website.png'
 import Food_web from '../../assets/Food-Website.png'
+import Gemini from '../../assets/Gemini.png'
 import { useRef } from 'react'
 const Portfolio = () => {
 
@@ -83,15 +84,17 @@ A food website built using React JS offers a dynamic and immersive experience fo
           </li>
           <li>
             <div className="slide">
-              <img src={e_icon} alt="" />
+              <img src={Gemini} alt="" />
               <div className='Project-info'>
-                <h3>Amozon clone</h3>
-                <span>--E-coomerce--</span>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, suscipit.</p>
+                <h3>Gemini-Ai</h3>
+                <span>Gemini-Clone</span>
+                <p>
+Gemini Clone by Rect is a sophisticated software solution tailored for cloning and replicating digital assets across multiple platforms with precision and efficiency. Engineered with meticulous attention to detai.</p>
                 </div>
               <div className="button">
-                <button className='btn dark-btn'> Live Preview</button>
-                <button className=' btn dark-btn'> Source Code</button>
+                <a href="https://gemini-ai-bypraveenraghav-vert.vercel.app/"><button className='btn dark-btn'> Live Preview</button></a>
+                <a href="https://github.com/Praveen-Raghav97/gemini-ai"><button className='btn dark-btn'> Source Code</button></a>
+                
               </div>
             </div>
           </li>
