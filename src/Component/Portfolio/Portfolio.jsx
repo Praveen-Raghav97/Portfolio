@@ -6,7 +6,7 @@ import e_icon from '../../assets/8344.jpg'
 import E_commerce from '../../assets/E-Commerce.png'
 import Collage_web from '../../assets/Collage-Website.png'
 import Food_web from '../../assets/Food-Website.png'
-import Gemini from '../../assets/Gemini.png'
+import Gemini from '../../assets/gemini.png'
 import { useRef } from 'react'
 const Portfolio = () => {
 
