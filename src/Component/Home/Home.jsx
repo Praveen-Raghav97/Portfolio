@@ -38,7 +38,8 @@ const Home = () => {
           application and experience on the web. </p>      
          </div>
          <div className="button">
-          <button className='btn dark-btn'>Resume</button>
+         <a href="https://1drv.ms/w/c/1ed9373212ab47a7/EXwkUi4bFypOk7FGa53sOwsBgxHtk-BTceyIy1GYdacwhw?e=T8I9IY"><button className='btn dark-btn'>Resume</button></a>
+          
           <Link to='portfolio' smooth ={true} offset ={-100} duration={500} ><button className='btn dark-btn'>My Work</button></Link>
           
          </div>
