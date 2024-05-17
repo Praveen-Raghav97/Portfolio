@@ -64,10 +64,20 @@
         opacity: 1;
     }
 }
+@keyframes widthAnimate {
+    from{
+        width: 1%;
+    }
+    to{
+        width: 80%;
+    }
+}
 .skill-per.html{
-      width: 80%;
+    width: 80%;
       background-color: orange;
-      animation-delay: 0.1s;
+     animation-delay: 0.1s;
+     
+
 }
 .skill-per.css{
     width: 90%;

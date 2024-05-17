@@ -21,7 +21,7 @@ const Navbar = () => {
     <h1>Pra <span>veen.</span></h1>
     <ul className={mobileMenu?'':'hide-mobile-menu'}>
       <li><Link to='home' smooth ={true} offset ={-100} duration={800} >Home</Link></li>
-      <li><Link to='services' smooth ={true} offset ={-330} duration={500} >Services</Link></li>
+      <li><Link to='services' smooth ={true} offset ={-280} duration={500} >Services</Link></li>
       <li><Link to='about' smooth ={true} offset ={-300} duration={800} >About </Link></li>
       <li><Link to='skills' smooth ={true} offset ={-170} duration={500}  >Skills </Link></li>
       <li><Link to='portfolio' smooth ={true} offset ={-180} duration={500} >Portfolio</Link></li>
