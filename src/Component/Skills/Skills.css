@@ -51,81 +51,87 @@
     background: crimson;
     animation: progress 0.4s  ease-in-out forwards;
     opacity:0 ;
+   
 
 }
+
 
 
 @keyframes progress {
     0%{
         width: 0;
-        opacity: 0;
+        opacity: 1;
     }
     100%{
         opacity: 1;
     }
 }
-@keyframes widthAnimate {
-    from{
-        width: 1%;
-    }
-    to{
-        width: 80%;
-    }
-}
+
 .skill-per.html{
     width: 80%;
-      background-color: orange;
-     animation-delay: 0.1s;
+    background-color: orange;
+     
+     animation: progress 2s ease 0s infinite normal;
      
 
 }
 .skill-per.css{
     width: 90%;
     background-color: blue;
-    animation-delay: 0.1s;
+    
+    animation: progress 2s ease 0s infinite normal;
 }
 .skill-per.js{
     width: 75%;
     background-color: yellow;
-    animation-delay: 0.2s;
+    
+    animation: progress 2s ease 0s infinite normal;
 }.skill-per.rect{
     width: 70%;
     background-color: cyan;
-    animation-delay: 0.2s;
+    
+    animation: progress 2s ease 0s infinite normal;
 }.skill-per.tailwend{
     width: 80%;
     background-color:cadetblue;
-    animation-delay: 0.3s;
+    
+    animation: progress 2s ease 0s infinite normal;
 }.skill-per.node{
     width: 70%;
     background-color: green;
-    animation-delay: 0.3s;
+   
+    animation: progress 2s ease 0s infinite normal;
 }.skill-per.express{
     width: 80%;
     background-color:yellowgreen;
-    animation-delay: 0.4s;
+   
+    animation: progress 2s ease 0s infinite normal;
 }.skill-per.java{
     width: 80%;
     background-color: crimson;
-    animation-delay: 0.4s;
+
+    animation: progress 2s ease 0s infinite normal;
 }.skill-per.gsap{
     width: 70%;
     background-color: orange;
-    animation-delay: 0.4s;
+    
+    animation: progress 2s ease 0s infinite normal;
 }.skill-per.next-js{
     width: 60%;
     background-color: #e9e9;
-    animation-delay: 0.4s;
+   
+    animation: progress 2s ease 0s infinite normal;
 }
 .skill-per.git{
     width: 60%;
     background:linear-gradient(16deg ,#4b90ff,#ff46e9);
-    animation-delay: 0.4s;
+
+    animation: progress 2s ease 0s infinite normal;
 }
 .skill-per.post{
     width: 60%;
     background:linear-gradient(16deg ,#4b90ff,#ff46e9);
-    animation-delay: 0.4s;
+    animation: progress 2s ease 0s infinite normal;
 }
 /* slkills circle*/
 
