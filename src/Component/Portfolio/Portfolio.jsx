@@ -7,6 +7,7 @@ import E_commerce from '../../assets/E-Commerce.png'
 import Collage_web from '../../assets/Collage-Website.png'
 import Food_web from '../../assets/Food-Website.png'
 import Gemini from '../../assets/gemini.png'
+import Netflix_Clone from '../../assets/NETFLIX-CLONE.png'
 import { useRef } from 'react'
 const Portfolio = () => {
 
@@ -14,7 +15,7 @@ const Portfolio = () => {
   let tx = 0;
   const slideForward = ()=>{
     if(tx < 0){
-      tx+=25;
+      tx+=20;
 
   }
       slider.current.style.transform =`translateX(${tx}%)`;
@@ -22,7 +23,7 @@ const Portfolio = () => {
   }
   const slideBackward = () =>{
     if(tx > -75){
-      tx-=25;
+      tx-=20;
 
   }
       
@@ -34,7 +35,22 @@ const Portfolio = () => {
       <img src={back_icon} alt="" className='back-btn'  onClick={slideForward}/>
       <img src={next_icon}alt=""  className='next-btn' onClick={slideBackward}/>
       <div className="slider">
-        <ul ref={slider}>
+        <ul ref={slider}> 
+        <li>
+            <div className="slide">
+              <img src={Netflix_Clone} alt="" />
+              <div className='Project-info'>
+                <h3>Netflix-Clone</h3>
+                <span>--OTT-PLATEFORM--</span>
+                <p>Building a Netflix clone using React.js and Firebase Authentication involves creating a dynamic, responsive web application that mimics the popular streaming service. </p>
+                </div>
+              <div className="button">
+                <a href="https://netflix-clone-git-main-praveen-raghavs-projects.vercel.app/"><button className='btn dark-btn'> Live Preview</button></a>
+               <a href="https://github.com/Praveen-Raghav97/Netflix-Clone"><button className=' btn dark-btn'> Source Code</button></a> 
+             
+              </div>
+            </div>
+          </li>
           <li>
             <div className="slide">
               <img src={E_commerce} alt="" />
