@@ -7,6 +7,7 @@ import instagram from '../../assets/instagramneon.png.png'
 import linkedin from '../../assets/linkedInneon.png.png'
 import github from '../../assets/githubneon2.png.png'
 import hand_icon from '../../assets/hand_icon.png'
+import dp from '../../assets/dp.jpg'
 
 import img2 from '../../assets/pic4.png'
 
