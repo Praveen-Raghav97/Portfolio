@@ -8,27 +8,29 @@ import Collage_web from '../../assets/Collage-Website.png'
 import Food_web from '../../assets/Food-Website.png'
 import Gemini from '../../assets/gemini.png'
 import Netflix_Clone from '../../assets/NETFLIX-CLONE.png'
+import Hunter from '../../assets/Hunter.png'
 import { useRef } from 'react'
 const Portfolio = () => {
 
   const slider =  useRef();
   let tx = 0;
   const slideForward = ()=>{
-    if(tx < 0){
+    if(tx  < 0){
       tx+=20;
 
-  }
+  } 
+
+  
       slider.current.style.transform =`translateX(${tx}%)`;
 
   }
   const slideBackward = () =>{
-    if(tx > -75){
-      tx-=20;
-
-  }
-      
+   
+  if(tx >-75){
+    tx-=20;
+   
       slider.current.style.transform =`translateX(${tx}%)`;
-
+  }
   }
   return (
     <div className='portfolio'>
@@ -36,6 +38,21 @@ const Portfolio = () => {
       <img src={next_icon}alt=""  className='next-btn' onClick={slideBackward}/>
       <div className="slider">
         <ul ref={slider}> 
+        <li>
+            <div className="slide">
+              <img src={Hunter} alt="" />
+              <div className='Project-info'>
+                <h3>Hunter</h3>
+                <span>--Video-Calling-App--</span>
+                <p>Creating a Video Calling App involves developing a comprehensive video conferencing application with features such as video and audio communication, screen sharing, chat, user management, and more.  </p>
+                </div>
+              <div className="button">
+                <a href="https://hunter-video-calling.vercel.app/"><button className='btn dark-btn'> Live Preview</button></a>
+               <a href="https://github.com/Praveen-Raghav97/Hunter-Video-Calling.git"><button className=' btn dark-btn'> Source Code</button></a> 
+             
+              </div>
+            </div>
+          </li>
         <li>
             <div className="slide">
               <img src={Netflix_Clone} alt="" />
@@ -51,20 +68,7 @@ const Portfolio = () => {
               </div>
             </div>
           </li>
-          <li>
-            <div className="slide">
-              <img src={E_commerce} alt="" />
-              <div className='Project-info'>
-                <h3>System Clothing</h3>
-                <span>--E-Commerce--</span>
-                <p>E-commerce websites built using React.js offer a dynamic and efficient platform for online shopping. Leveraging React.js's component-based architecture, developers can create modular and reusable UI elements. </p>
-                </div>
-              <div className="button">
-                <button className='btn dark-btn'> Live Preview</button>
-                <button className=' btn dark-btn'> Source Code</button>
-              </div>
-            </div>
-          </li>
+         
           <li>
             <div className="slide">
               <img src={Collage_web} alt="" />
